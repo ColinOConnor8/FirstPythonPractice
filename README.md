@@ -1,1 +1,1 @@
-# FirstPythonPractice
+# First Python Practice Repository
