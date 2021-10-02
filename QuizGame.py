@@ -4,8 +4,7 @@ print('Welcome to my computer Quiz!')
 #Want to play?
 playing = input('Do you want to play? ')
 if playing.lower != 'yes':
-    quit()
-print("Okay! Let's play")
+    print("Okay! Let's play")
 
 #Score is 0 at first
 score = 0
@@ -49,3 +48,6 @@ if answer5 == '10':
     score += 1
 else:
     print('Incorrect!')
+
+#Print Score
+print("You scored " + str(score) + "/5!")
